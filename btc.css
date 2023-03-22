@@ -1,0 +1,352 @@
+.all-the-header{
+    background-image: url('img/forex4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    background-color: darkslategray;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+/* logo */
+#logo{
+    width: 50px;
+}
+/* the time for work */
+.opening{
+    display: flex;
+    align-items: center;
+}
+.opening h2{
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* nav for login, register, help and support */
+.log{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+/* the nav links text */
+.log a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* all icons for nav links and logo */
+.icons{
+    width: 20px;
+}
+/* id for two icons */
+#icons{
+    width: 10px;
+}
+/* second header starts here */
+.second-header{
+    display: flex;
+    justify-content: space-around;
+}
+.call-email{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+.call-email a, h2{
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: orange;
+}
+.icons2{
+    width: 60px;
+    border-radius: 8px;
+}
+.email-us, .call, .name{
+    display: flex;
+    align-items: center;
+}
+/* the submit button on this section */
+.get-start a{
+    color: black;
+}
+.get-start button{
+    width: 170px;
+    height: 40px;
+    border-radius: 6px;
+}
+/* third header parent container */
+.third-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    margin-left: 120px;
+    margin-right: 100px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 5px 5px 1px 1px black;
+}
+#home{
+    width: 35px;
+    height: 20px;
+}
+/* all the contents in the unodered list */
+.ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    list-style: none;
+    color: white;
+}
+/* nav bars in the ul */
+.ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    background-color: chocolate;
+}
+/* select-options in the ul */
+.page{
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    font-size: 22px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page:hover{
+    background-color: chocolate;
+}
+/* home and the icon */
+.homeicon{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 115px;
+    border-radius: 8px;
+}
+.homeicon:hover{
+    background-color: chocolate;
+}
+#home-color{
+    color: black;
+}
+.head-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-search input{
+    background-color: orange;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    width: 140px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-loop{
+    height: 32px;
+    background-color: orange;
+    border: none;
+    outline: none;
+}
+/* brief about */
+.about-intro{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+.write-ups{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+/* learn more and crypto prices buttons */
+.learn-price{
+    margin-bottom: 3rem;
+}
+.learn-more{
+    width: 180px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+}
+.prices{
+    width: 180px;
+    height: 50px;
+    background-color: lightgray;
+    border: 1px solid white;
+}
+.learn-price a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* another section */
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.second-to-the-last-section {
+    box-shadow: 0 4px 8px darkgray;
+    transition: 0.3s;
+    width: 300px;
+}
+.first-writeup{
+    
+    /* box-shadow: 1px 1px 1px 0.4px gray; */
+    padding: 16px;
+     font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-writeup:hover{
+    box-shadow: 0px 8px 16px 0.4px gray;
+}
+.img-section{
+    width: 300px;
+    height: 200px;
+}
+/* #img-section{
+    height: 200px;
+}  */
+/* last section */
+.last-section{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 3rem;
+    background-color: rgb(236, 244, 244);
+}
+.buy-sell-exchang{
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contact{
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+}
+.the-input{
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: rgb(102, 80, 39);
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.the-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: rgb(102, 80, 39);
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.the-button{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(102, 80, 39);
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgs{
+    display: grid;
+    margin-bottom: 3rem;
+}
+#coinz{
+    height: 300px;
+}
+.coinz{
+    width: 300px;
+    box-shadow: 1px 1px 5px 0.4px;
+    box-shadow: 0.4px 5px 1px 1px;
+}
+.coinz:hover{
+    box-shadow: 1px 1px 5px 0.4px;
+}
+/* footer starts here */
+footer{
+    background: rgb(45, 38, 38);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+   
+}
+.h3-main{
+    color: darkgoldenrod;
+}
+.h3{
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.coinz-footer{
+    width: 200px;
+}
+.footer1 a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer1{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    display: grid;
+    gap: 1rem;
+}
