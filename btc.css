@@ -53,11 +53,6 @@ header{
 #icons{
     width: 10px;
 }
-/* second header starts here */
-.second-header{
-    display: flex;
-    justify-content: space-around;
-}
 .call-email{
     display: flex;
     align-items: center;
@@ -91,6 +86,12 @@ span{
     height: 40px;
     border-radius: 6px;
 }
+/* second header starts here */
+.second-header{
+    margin-left: 60px;
+
+}
+
 /* third header parent container */
 .third-header{
     display: flex;
@@ -123,20 +124,15 @@ span{
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
 }
-a:hover{
-    background-color: chocolate;
-}
 /* select-options in the ul */
 .page{
     background-color: orange;
     color: white;
     border: 1px solid orange;
+    outline: none;
     font-size: 22px;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
-}
-.page:hover{
-    background-color: chocolate;
 }
 /* home and the icon */
 .homeicon{
@@ -175,7 +171,8 @@ a:hover{
     font-family: Arial, Helvetica, sans-serif;
 }
 .btn-loop{
-    height: 32px;
+    align-items: center;
+    height: 25px;
     background-color: orange;
     border: none;
     outline: none;
@@ -223,7 +220,7 @@ a:hover{
     justify-content: center;
     text-align: center;
     gap: 3rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 .second-to-the-last-section {
     box-shadow: 0 4px 8px darkgray;
@@ -245,9 +242,7 @@ a:hover{
     width: 300px;
     height: 200px;
 }
-/* #img-section{
-    height: 200px;
-}  */
+ 
 /* last section */
 .last-section{
     margin-top: 5rem;
@@ -273,22 +268,20 @@ a:hover{
     border-radius: 6px;
     border: none;
     outline: none;
-    background-color: rgb(102, 80, 39);
     font-size: large;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .the-email{
     width: 250px;
     height: 40px;
     border-radius: 6px;
     border: none;
     outline: none;
-    background-color: rgb(102, 80, 39);
     font-size: large;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
-    color: red;
 }
 .the-button{
     width: 100px;
@@ -296,7 +289,7 @@ a:hover{
     cursor: pointer;
     border-radius: 6px;
     border: none;
-    background-color: rgb(102, 80, 39);
+    background-color: rgb(233, 218, 187);
     font-size: large;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
